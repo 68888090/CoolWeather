@@ -2,8 +2,9 @@ package com.coolweather.coolweather.db;
 
 import org.litepal.LitePal;
 import org.litepal.crud.DataSupport;
+import org.litepal.crud.LitePalSupport;
 
-public class City extends LitePal {
+public class City extends LitePalSupport {
     private int id;
     private String cityName;
     private int cityCode;
